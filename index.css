@@ -1,0 +1,62 @@
+.main{
+  /* padding-left:25%;/ */
+ background-color:#E3CAA5;
+ border-bottom: 10%;
+ box-shadow: 10px 12px 10px grey;
+ width:max-content;
+ margin: auto;
+ /* padding-right: 50%; */
+ height: 50%;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ padding-right: 50px ;
+}
+
+h1{
+  text-align: center;
+}
+
+body{
+  box-sizing: border-box;
+  
+  padding: 20px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+form{
+  padding:15px ;
+}
+
+#info{
+  border:none;
+}
+#tab2{
+    padding: 15px;  
+   
+  }
+
+    
+input[type="text"],[type="number"],[type="email"],[type="tel"]{
+  border-radius: 5px;
+}
+
+button{height:auto;
+  display: inline-flex;
+  position: absolute;
+  margin: 0%;
+  bottom:10%;
+  top:auto;
+  justify-content: center;
+  width: max-content;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 12px 5px 10px grey;
+  
+}
